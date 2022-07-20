@@ -1,0 +1,19 @@
+[package]
+name = "fsutils"
+version = "1.0.0"
+description = "Utilities to help working with the filesytem"
+authors = ["XXIV"]
+homepage = "https://github.com/thechampagne/libfsutils"
+repository = "https://github.com/thechampagne/libfsutils"
+readme = "README.md"
+license = "MIT"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "fsutils"
+crate-type =["dylib","staticlib"]
+
+[dependencies]
+fs-utils = "1.1.4"
