@@ -13,7 +13,7 @@ edition = "2021"
 
 [lib]
 name = "fsutils"
-crate-type =["dylib","staticlib"]
+crate-type =["cdylib","staticlib"]
 
 [dependencies]
 fs-utils = "1.1.4"
